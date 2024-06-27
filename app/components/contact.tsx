@@ -5,7 +5,7 @@ import { FaDev } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaHashnode } from "react-icons/fa6";
 
-const contact = () => {
+const Contact = () => {
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -75,4 +75,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact

@@ -9,7 +9,7 @@ import { FaDev } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaHashnode } from "react-icons/fa6";
 
-const card = () => {
+const Card = () => {
 
   const handleResume = () => {
     console.log("Display Resume")
@@ -57,4 +57,4 @@ const card = () => {
   )
 }
 
-export default card
+export default Card

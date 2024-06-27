@@ -17,7 +17,7 @@ const About = () => {
       <p className='text-white text-6xl font-bold'>About Me!</p>
       <div className='flex flex-col sm:flex-row justify-center gap-5'>
         <div className='rounded-xl text-white w-full sm:w-2/4 text-xl p-8'>
-          I'm <span className='text-yellow-300'>Madhav Ganesan</span>, a computer science student with a passion for <span className='text-yellow-300'>web development</span> and <span className='text-yellow-300'>artificial intelligence</span>. I am currently honing my skills and shaping my future as a <span className='text-yellow-300'>full stack developer</span>.
+          I&apos;m <span className='text-yellow-300'>Madhav Ganesan</span>, a computer science student with a passion for <span className='text-yellow-300'>web development</span> and <span className='text-yellow-300'>artificial intelligence</span>. I am currently honing my skills and shaping my future as a <span className='text-yellow-300'>full stack developer</span>.
 
           My journey in technology began with a curiosity for how things work and a desire to create innovative solutions. Over time, this curiosity has evolved into a deep interest in building dynamic and responsive web applications, as well as exploring the vast potential of AI to solve real-world problems.
 
