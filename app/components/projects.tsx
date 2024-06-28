@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from './carousel';
-import project1 from "@/public/test.jpg";
+import project1 from "@/public/images1.jpg";
 import project2 from "@/public/four.jpg";
 import { StaticImageData } from 'next/image';
 

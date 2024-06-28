@@ -22,7 +22,7 @@ const Contact = () => {
   }
 
   return (
-    <div className='text-white flex flex-col justify-around items-center gap-14'>
+    <div className='text-white flex flex-col justify-center items-center gap-14'>
 
       <p className='text-6xl font-bold'>Contact Me!</p>
 

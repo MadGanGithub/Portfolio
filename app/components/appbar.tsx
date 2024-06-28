@@ -38,7 +38,7 @@ const AppBar = () => {
 
 
   return (
-    <div className='fixed flex bg-appbar w-screen h-1/7 justify-around p-5 text-white'>
+    <div className='fixed flex bg-appbar w-full h-1/7 justify-around p-5 text-white'>
       <div className='font-medium'>
         Madhav Ganesan
       </div>
