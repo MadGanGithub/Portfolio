@@ -42,7 +42,9 @@ const Carousel: React.FC<CarouselProps> = ({ slides }) => {
       >
         {slides.map((slide, index) => (
           <div key={index} className="min-w-full bg-white flex flex-col pb-2 rounded-lg shadow-lg">
-            <Image src={slide.imageUrl} alt={slide.title} className="w-full h-72 object-cover p-4 m-4 pr-10 rounded-lg" />
+            <div className='flex justify-center items-center'>
+            <Image src={slide.imageUrl} alt={slide.title} className="w-3/4 h-3/4 p-4 m-4 pr-10 rounded-lg border-4" />
+            </div>
             <div className="pr-6 pl-6 pb-6">
               <div className="text-xl font-bold mb-2">{slide.title}</div>
               <div className="text-gray-700 mb-4 flex justify-start gap-2">
@@ -54,9 +56,9 @@ const Carousel: React.FC<CarouselProps> = ({ slides }) => {
                 <button className="hover:bg-yellow-300 hover:text-white bg-white text-black rounded-full border-2 border-yellow-500 p-2">
                   <a href={slide.repo} target="_blank" rel="noopener noreferrer">Repository</a>
                 </button>
-                <button className="hover:bg-yellow-300 hover:text-white bg-white text-black rounded-full border-2 border-yellow-500 p-2">
+                {/* <button className="hover:bg-yellow-300 hover:text-white bg-white text-black rounded-full border-2 border-yellow-500 p-2">
                   <a href={slide.link} target="_blank" rel="noopener noreferrer">Live Demo</a>
-                </button>
+                </button> */}
               </div>
             </div>
           </div>

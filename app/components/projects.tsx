@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from './carousel';
-import project1 from "@/public/images1.jpg";
-import project2 from "@/public/four.jpg";
+import project1 from "@/public/madstuffs.jpg";
+import project2 from "@/public/portfolio.jpg";
 import { StaticImageData } from 'next/image';
 
 interface ProjectItem {
@@ -18,21 +18,14 @@ const Projects = () => {
       title: "Blog App",
       techUsed: ["ReactJs", "NodeJs", "MongoDb", "ExpressJs"],
       repo: "https://github.com/MadGanGithub/MadStuffs",
-      link: "www.google.com",
-      imageUrl: project1
-    },
-    {
-      title: "E-commerce Site",
-      techUsed: ["React", "Express", "MongoDB"],
-      repo: "https://github.com/MadGanGithub/Ecommerce",
-      link: "www.example.com",
+      link: "https://mad-stuffs.vercel.app/",
       imageUrl: project1
     },
     {
       title: "Portfolio",
       techUsed: ["Next.js", "Tailwind CSS"],
       repo: "https://github.com/MadGanGithub/Portfolio",
-      link: "www.portfolio.com",
+      link: "www.madstuffs.online",
       imageUrl: project2
     },
   ];
