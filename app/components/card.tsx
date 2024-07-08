@@ -1,12 +1,8 @@
 "use client"
 
-import React from 'react'
-import Image from 'next/image';
 import profile from "@/public/profile.png";
-import { FaGithub } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaDev } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import Image from 'next/image';
+import { FaDev, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { FaHashnode } from "react-icons/fa6";
 
 const Card = () => {
@@ -28,7 +24,7 @@ const Card = () => {
         <p className='text-4xl'>Web Developer</p>
         <div className='flex justify-start gap-5'>
           <button onChange={handleResume} className='rounded-full bg-white text-black p-2 font-bold'>
-            <a href="#">Resume</a>
+            <a href="https://drive.google.com/file/d/1CBH3v0x-gKusjlFROIVTYg0JJHbWFC68/view?usp=sharing" target="_blank">Resume</a>
           </button>
           <button className='rounded-full bg-yellow-300 text-black p-2 font-bold'>
             <a href="#contact">Contact me</a>

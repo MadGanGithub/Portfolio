@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { FaBars } from "react-icons/fa";
 
 const AppBar = () => {
@@ -49,6 +49,7 @@ const AppBar = () => {
         <ul className='flex flex-row gap-10'>
           <li className='hover:underline decoration-yellow-300 decoration-4 underline-offset-8'><a href="#home">Home</a></li>
           <li className='hover:underline decoration-yellow-300 decoration-4 underline-offset-8'><a href="#about">About</a></li>
+          <li className='hover:underline decoration-yellow-300 decoration-4 underline-offset-8'><a href="#blogs">Blogs</a></li>
           <li className='hover:underline decoration-yellow-300 decoration-4 underline-offset-8'><a href="#projects">Projects</a></li>
           <li className='hover:underline decoration-yellow-300 decoration-4 underline-offset-8'><a href="#contact">Contact</a></li>
         </ul>
@@ -56,10 +57,11 @@ const AppBar = () => {
       {/* Sidebar */}
       <div className={`fixed inset-y-0 left-0 w-1/2 bg-appbar z-50 transform transition-transform ease-in-out duration-300 ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
         <ul className='flex flex-col gap-5 p-5 sidebar'>
-          <li className='hover:underline decoration-red-600 decoration-4 underline-offset-8'><a href="#home">Home</a></li>
-          <li className='hover:underline decoration-red-600 decoration-4 underline-offset-8'><a href="#about">About</a></li>
-          <li className='hover:underline decoration-red-600 decoration-4 underline-offset-8'><a href="#skills">Skills</a></li>
-          <li className='hover:underline decoration-red-600 decoration-4 underline-offset-8'><a href="#projects">Projects</a></li>
+          <li className='hover:underline decoration-yellow-300 decoration-4 underline-offset-8'><a href="#home">Home</a></li>
+          <li className='hover:underline decoration-yellow-300 decoration-4 underline-offset-8'><a href="#about">About</a></li>
+          <li className='hover:underline decoration-yellow-300 decoration-4 underline-offset-8'><a href="#blogs">Blogs</a></li>
+          <li className='hover:underline decoration-yellow-300 decoration-4 underline-offset-8'><a href="#skills">Skills</a></li>
+          <li className='hover:underline decoration-yellow-300 decoration-4 underline-offset-8'><a href="#projects">Projects</a></li>
         </ul>
       </div>
       {/* Overlay */}

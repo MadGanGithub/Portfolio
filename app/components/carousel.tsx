@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from 'next/image';
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Tag from './tag';
 
 interface ProjectItem {
@@ -43,7 +43,7 @@ const Carousel: React.FC<CarouselProps> = ({ slides }) => {
         {slides.map((slide, index) => (
           <div key={index} className="min-w-full bg-white flex flex-col pb-2 rounded-lg shadow-lg">
             <div className='flex justify-center items-center'>
-            <Image src={slide.imageUrl} alt={slide.title} className="w-3/4 h-3/4 p-4 m-4 pr-10 rounded-lg border-4" />
+              <Image src={slide.imageUrl} alt={slide.title} className="w-3/4 h-3/4 p-4 m-4 pr-10 rounded-lg border-4" />
             </div>
             <div className="pr-6 pl-6 pb-6">
               <div className="text-xl font-bold mb-2">{slide.title}</div>
