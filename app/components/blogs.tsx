@@ -67,20 +67,20 @@ export default function Blogs() {
         <p className='text-white text-6xl font-bold'>Latest Blogs</p>
         <ImageList className='w-full h-1/2'>
           {posts.map((item, index) => (
-            <a href={item.url}>
               <ImageListItem key={index}>
+                <a href={item.url} key={index}>
                 <img
                   src={item.coverImage.url}
                   alt={item.title}
                   loading="lazy"
                 />
+                </a>
                 {/* <ImageListItemBar
             title={item.title}
             position="below"
             style={{backgroundColor:'white'}}
           /> */}
               </ImageListItem>
-            </a>
           ))}
         </ImageList>
       </div>
