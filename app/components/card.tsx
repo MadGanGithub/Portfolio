@@ -24,7 +24,7 @@ const Card = () => {
         <p className='text-4xl'>Web Developer</p>
         <div className='flex justify-start gap-5'>
           <button onChange={handleResume} className='rounded-full bg-white text-black p-2 font-bold'>
-            <a href="https://drive.google.com/file/d/1CBH3v0x-gKusjlFROIVTYg0JJHbWFC68/view?usp=sharing" target="_blank">Resume</a>
+            <a href="https://drive.google.com/file/d/1TVoGpc0dzmGpJ3-3YZ3paMYDN-zxDA3j/view?usp=sharing" target="_blank">Resume</a>
           </button>
           <button className='rounded-full bg-yellow-300 text-black p-2 font-bold'>
             <a href="#contact">Contact me</a>
